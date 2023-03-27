@@ -1,0 +1,13 @@
+.padrao{
+  margin: 0.5rem;
+}
+
+.corpo{
+  background-color: #ececec;
+  display: grid;
+  grid-template-columns:100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

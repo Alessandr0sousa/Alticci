@@ -1,0 +1,27 @@
+<section class="container">
+  <form>
+    <div>
+      <input
+        [(ngModel)]='posicao'
+        type="number"
+        name="posicao"
+        id="posicao"
+        class="inputControl"
+      />
+    </div>
+    <div>
+      <button type="submit" class="btn btn-success" (click)="findAlticciByPosition()">Consultar Posição</button>
+    </div>
+  </form>
+  <div class="padrao">
+    <label for="postion">Posição da sequencia: </label>
+    <span id="postion">{{ alticci.posicao }}</span>
+  </div>
+  <div class="padrao">
+    <label for="sequencia">Valor do Alticci: </label>
+  </div>
+  <div class="padrao">
+    <span id="sequencia">{{ alticci.sequencia }}</span>
+  </div>
+
+</section>
