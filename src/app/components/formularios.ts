@@ -1,4 +1,3 @@
 export interface Formularios {
-  posicao: number
-  sequencia: number
+  response: string
 }

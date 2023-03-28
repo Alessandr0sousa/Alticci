@@ -9,7 +9,7 @@ import { Formularios } from '../formularios';
 })
 export class FormulariosService {
 
-  private readonly API = '/api/alticci';
+  private readonly API = 'http://localhost:8080/alticci';
   constructor(private httpClient: HttpClient) { }
 
   findAlticciByPosition({ posicao }: { posicao: number; }): Observable<Formularios> {

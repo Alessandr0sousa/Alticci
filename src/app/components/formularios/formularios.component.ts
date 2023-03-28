@@ -15,8 +15,7 @@ export class FormulariosComponent implements OnInit {
   alticcis: Formularios[] = [];
 
   alticci: Formularios = {
-    sequencia: 0,
-    posicao: 0
+    response: ''
   }
 
   constructor(private service: FormulariosService){}

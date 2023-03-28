@@ -1,11 +1,20 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+}
+
 .padrao{
   margin: 0.5rem;
 }
 
 .corpo{
+  font-family: 'Roboto', sans-serif;
   background-color: #ececec;
   display: grid;
   grid-template-columns:100%;
+  min-width: 220px;
+  min-height: 230px;
+  padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
